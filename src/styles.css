@@ -1,0 +1,56 @@
+
+#root{
+        width: 50%;
+        height: 100%;
+        background-color: aquamarine;
+        margin: auto;
+        border-radius: 5px;
+} 
+
+body{
+        background-color: rgb(0, 131, 131);
+} 
+.mainDiv{
+        width: 50%;
+        height: 50px;
+        margin: auto;
+        box-sizing: border-box;
+        display: flex; 
+        gap: 10%;
+        
+} 
+
+.logoDiv{
+                height: 100%;
+                width: 15%;
+                background-color: rgb(152, 97, 240);
+                border-radius: 20px;
+        
+} 
+.navbar{
+        height: 100%;
+        width: 75%;
+        text-align: center;
+        background-color: rgb(152, 97, 240);
+        border-radius: 20px;
+        font-family: 'Courier New', Courier, monospace; 
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+}
+
+.fileDiv{
+        height: 100%;
+        width: 15%;
+
+        border-radius: 20px;
+        box-sizing: border-box;
+}
+
+#inputText{
+        margin-top: 5px;
+        margin-left: 20%;
+} 
+#btn{
+        margin-left: 75%;
+}
